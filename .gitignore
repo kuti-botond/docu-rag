@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Environment variables & Secrets (CRITICAL)
+.env
+*.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local Database & Vector Store
+*.db
+app_database.db
+vector_db/
+chroma_db/
+
+# User data & uploaded raw documents
+data/raw_docs/*
+!data/raw_docs/.gitkeep
+
+# IDE & OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
