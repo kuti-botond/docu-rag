@@ -220,8 +220,8 @@ retriever = vectorstore.as_retriever(
 # Groq LLM
 llm = ChatGroq(model_name="openai/gpt-oss-120b", groq_api_key=api_key)
 
-prompt_template = """You are a helpful assistant. Answer the question based STRICTLY on the provided context.
-If the answer is not present in the context, state 'The document does not contain this information', do not invent anything.
+prompt_template = """You are a helpful intelligent assistant. Answer the question based on the provided context.
+If the answer is not present in the context, use your general knowledge and state it clearly and state that it is based on your general knowledge and not on the provided context, do not invent anything.
 
 Conversation history:
 {chat_history}
