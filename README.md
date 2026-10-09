@@ -81,8 +81,8 @@ graph TD
 Clone the repository and navigate into the project folder:
 
 ```bash
-git clone https://github.com/kuti-botond/learner.git
-cd learner
+git clone https://github.com/kuti-botond/docu-rag.git
+cd docu-rag
 ```
 
 Create and activate a virtual environment:
